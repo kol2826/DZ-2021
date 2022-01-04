@@ -2,47 +2,47 @@
     display: flex;
     margin: 0 0 63px;
     background-color: $pink-bkg;
-}
 
-.brand__wrp {
-    display: flex;
-    justify-content: flex-start;
-    width: 1540px;
-    align-items: center;
-    margin: 0 auto;
-}
+    &__wrp {
+        display: flex;
+        justify-content: flex-start;
+        width: 1540px;
+        align-items: center;
+        margin: 0 auto;
+    }
 
-.brand__title-wrp {
-    display: flex;
-    align-items: center;
-    padding: 0 0 0 92px;
-    flex-grow: 1;
-    position: relative;
-}
+    &__title-wrp {
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 92px;
+        flex-grow: 1;
+        position: relative;
+    }
 
-.brand__title-wrp::after {
-    content: " ";
-    width: 12px;
-    height: 100%;
-    background: $pink-text;
-    position: absolute;
-    left: -15px;
-}
+    &__title-wrp::after {
+        content: " ";
+        width: 12px;
+        height: 100%;
+        background: $pink-text;
+        position: absolute;
+        left: -15px;
+    }
 
-.brand__title {
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 58px;
-    color: $black;
-    text-transform: uppercase;
-}
+    &__title {
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 58px;
+        color: $black;
+        text-transform: uppercase;
+    }
 
-.brand__sub-title {
-    display: block;
-    font-size: 32px;
-    line-height: 38px;
-}
+    &__sub-title {
+        display: block;
+        font-size: 32px;
+        line-height: 38px;
+    }
 
-.brand__sub-title-pink {
-    color: $pink-text;
+    &__sub-title-pink {
+        color: $pink-text;
+    }
 }
