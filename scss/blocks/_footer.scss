@@ -1,0 +1,141 @@
+.footer_wrp {
+    background-image: url(../img/relax.jpg);
+    background-blend-mode: color;
+    min-height: 448px;
+}
+
+.footer__info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__info-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__info-img {
+    padding-top: 97px;
+    width: 96px;
+    align-self: center;
+}
+
+.footer__info-text {
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 360px;
+}
+
+.footer__info-text_italic {
+    font-style: italic;
+}
+
+.footer__info-subscribetitle {
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer__info-subscribetext {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-bottom: 32px;
+}
+
+.footer__info-form {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__info-input {
+    height: 49px;
+    width: 256px;
+    border-radius: 20px 0 0 20px;
+    background: #E1E1E1;
+    border: 0;
+}
+
+.footer__info-input::placeholder {
+    padding-left: 22px;
+    color: #222224;
+    opacity: 0.67;
+}
+
+.footer__info-button {
+    border-radius: 0 20px 20px 0;
+    background: #F16D7F;
+    border: 0;
+    color: #FFFFFF;
+    width: 100px;
+}
+
+.footer__info-button:hover,
+.footer__info-button:active,
+.footer__info-button:focus {
+    cursor: pointer;
+    outline: none;
+    opacity: 0.5;
+}
+
+.footer_copyright {
+    background-color: $black;
+}
+
+.footer_copyright_wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_copyright-text {
+    color: $white-text;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer_copyright-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer_copyright-item {
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    display: flex;
+    margin: 2px;
+}
+
+.footer_copyright-social_icon {
+    fill: black;
+}
+
+.footer_copyright-item:hover,
+.footer_copyright-item:active,
+.footer_copyright-item:focus {
+    cursor: pointer;
+    outline: none;
+    background: $pink-text;
+    border: 1px solid $pink-text;
+}
+
+.footer_copyright-item:hover .footer_copyright-social_icon,
+.footer_copyright-item:active .footer_copyright-social_icon,
+.footer_copyright-item:focus .footer_copyright-social_icon {
+    fill: $white-text;
+}

@@ -1,0 +1,40 @@
+.menu-sub-item__title {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: $pink-text;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 24px;
+    margin-bottom: 12px;
+}
+
+.menu-sub-item__list {
+    padding-left: 12px;
+}
+
+.menu-sub-item__item-link {
+    margin-top: 11px;
+}
+
+.menu-sub-item__item-link:hover,
+.menu-sub-item__item-link:active,
+.menu-sub-item__item-link:focus {
+    cursor: pointer;
+    outline: none;
+    background-color: $pink-text;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.menu-sub-item__item-link:hover .menu__link,
+.menu-sub-item__item-link:active .menu__link,
+.menu-sub-item__item-link:focus .menu__link {
+    color: $black;
+}
