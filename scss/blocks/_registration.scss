@@ -1,0 +1,160 @@
+.registration__title-wrap {
+    height: 148px;
+    background: #F8F3F4;
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.registration__title {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 29px;
+    color: $pink-text;
+    font-weight: 400;
+}
+
+.registration__wrap {
+    display: flex;
+}
+
+.registration__form {
+    max-width: 360px;
+    margin-right: 130px;
+}
+
+.registration__form-fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration__form-legend {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.registration__input {
+    margin-top: 20px;
+    height: 45px;
+    border: 1px solid #A4A4A4;
+}
+
+.registration__input[placeholder] {
+    text-overflow: ellipsis;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    padding-left: 16px;
+    color: #B1B1B1;
+}
+
+.registration__radio {
+    padding-top: 31px;
+    padding-bottom: 33px;
+}
+
+.registration__radio-label {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 13px;
+    text-align: left;
+}
+
+.registration__input-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    padding-top: 15px;
+    padding-bottom: 39px;
+}
+
+.registration__submit {
+    display: flex;
+    background: #F16D7F;
+    align-content: center;
+    margin-bottom: 96px;
+}
+
+.registration__submit:hover,
+.registration__submit:focus,
+.registration__submit:active {
+    cursor: pointer;
+    outline: none;
+}
+
+.registration__submit-text {
+    color: $white-text;
+    text-transform: uppercase;
+    padding-left: 29px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.registration__submit-icon {
+    fill: $white-text;
+    padding-left: 20px;
+    align-self: center;
+    padding-right: 29px;
+}
+
+.registration__pluses {
+    padding-left: 10px;
+}
+
+.registration__pluses-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+
+.registration__pluses-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 21px;
+}
+
+.registration__pluses-list {
+    margin: 0;
+    list-style: none;
+}
+
+.registration__pluses-item {
+    position: relative;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+    padding-left: 25px;
+}
+
+.registration__pluses-item:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    background-image: url(../img/vector.svg);
+    background-size: 15px 15px;
+}
+
+.registration {
+    border-color: #F8F3F4;
+    width: 1140px;
+    margin: 0 auto;
+}

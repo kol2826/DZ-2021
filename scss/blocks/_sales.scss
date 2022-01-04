@@ -1,0 +1,71 @@
+.sales__item {
+    width: 360px;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.sales__item-niz {
+    width: 360px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.sales__item:hover,
+.sales__item:active,
+.sales__item:focus {
+    cursor: pointer;
+    outline: none;
+    opacity: 0.5;
+}
+
+.sales__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sales__item--woman {
+    background-image: url('../img/tovar1.jpg');
+    margin-right: 30px;
+
+}
+
+.sales__item--man {
+    background-image: url('../img/tovar2.jpg');
+    margin-right: 30px;
+}
+
+.sales__item--kids {
+    background-image: url('../img/tovar3.jpg');
+}
+
+.sales__item--accesories {
+    width: 100%;
+    background-image: url('../img/tovar4.jpg');
+    margin-top: 30px;
+    margin-bottom: 96px;
+    height: 180px;
+}
+
+.sales__item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $white-text;
+    text-transform: uppercase;
+}
+
+.sales__item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: $pink-text;
+    text-transform: uppercase;
+}
